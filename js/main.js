@@ -35,15 +35,15 @@ function init (){
 	var levelpBackButton = document.getElementById("levelpBackButtonGame2");
 	levelpBackButton.addEventListener('click', navigate('game2p', 'menup'));
 
-	var gamepBackButton = document.getElementById("gamepBackButton");
+	/*var gamepBackButton = document.getElementById("gamepBackButton");
 	gamepBackButton.addEventListener('click', navigate('game1p', 'level1p'));
-
+	*/
 	var creditpBackButton = document.getElementById("creditpBackButton");
 	creditpBackButton.addEventListener('click', navigate('creditp', 'menup'));
 
 	// Game
 
-	var gameHelper = document.querySelector('.gameHelper');
+	/*var gameHelper = document.querySelector('.gameHelper');
 
 	gameHelper.onkeyup = function(e) {
 	    var max = 7; // The maxlength you want
@@ -85,54 +85,13 @@ function init (){
 
 	var num8 = document.getElementById("num8");
 	num8.addEventListener('focus', ()=>{showH('num8')}, true);
-	num8.addEventListener('blur', ()=>{notShowH('num8')}, true);
+	num8.addEventListener('blur', ()=>{notShowH('num8')}, true);*/
 
 }
 
-hints = {
-	'num1': {
-		'hint': 'Las copas de __ son muy frágiles',
-		'answ': 'cristal',
-		'checked': false
-	},
-	'num2': { 
-		'hint': 'Arteria que está al lado del hueso fémur',
-		'answ': 'femoral',
-		'checked': false
-	},
-	'num3': {
-		'hint': 'Mago principal de "El Hobbit"',
-		'answ': 'gandalf',
-		'checked': false
-	},
-	'num4': {
-		'hint': 'Lo inhalamos, pero no lo exhalamos',
-		'answ': 'oxigeno',
-		'checked': false
-	},
-	'num5': {
-		'hint': 'Monstruo humanoide de un solo ojo',
-		'answ': 'ciclope',
-		'checked': false
-	},
-	'num6': {
-		'hint': 'Se dice del animal que pone huevos',
-		'answ': 'oviparo',
-		'checked': false
-	},
-	'num7': {
-		'hint': 'Cantante conocido como el Rey del Pop',
-		'answ': 'jackson',
-		'checked': false
-	},
-	'num8': {
-		'hint': 'En un juicio, el que recibe la condena',
-		'answ': 'acusado',
-		'checked': false
-	}
-}
 
-function winner(){
+
+/*function winner(){
 	var flag = true;
 	Object.keys(hints).forEach( element => {
 	    if (!hints[element]['checked']) {
@@ -140,9 +99,9 @@ function winner(){
 	    };
 	});
 	return flag
-}
+}*/
 
-function check(key){
+/*function check(key){
 	var userAnsw = document.getElementById(key).value.toUpperCase().substring(0,7);
 	var answ = hints[key]['answ'].toUpperCase();
 	if (userAnsw == answ) {
@@ -170,7 +129,7 @@ function check(key){
 			setTimeout(()=>{document.getElementById(key).style.border = "inset rgb(238, 238, 238) 2px";}, 1000);
 		}
 	}
-}
+}*/
 
 function showH(key){
 	document.getElementById("hint").innerHTML = hints[key]['hint'];
@@ -192,7 +151,7 @@ function hide (id) {
 	document.getElementById(id).style.display = "none";
 }
 
-function saltar(e,id)
+/*function saltar(e,id)
 {
 	(e.keyCode)?k=e.keyCode:k=e.which;
  
@@ -200,7 +159,7 @@ function saltar(e,id)
 	{
 		document.getElementById(id).focus();
 	}
-}
+}*/
 
 var navigate = function(actual, next) {
 	return function () {

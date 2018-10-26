@@ -16,15 +16,15 @@
 }
 
 .phonegame2{
-	background-image:url("../images/instrucciones.png");
+	/*background-image:url("../images/instrucciones.png");*/
 }
 
 .phonecredit{
-	background-image:url("../images/creditos.png");
+	/*background-image:url("../images/creditos.png");*/
 }
 
 .phonewin{
-	background-image:url("../images/gano.png");
+	/*background-image:url("../images/gano.png");*/
 }
 
 .imgleft {
@@ -42,14 +42,41 @@
 }
 
 .imgbtn1{
-	position:center;
-    margin-top:800px;
+	position:absolute;
+	bottom: 800px;
+	left: 120px;
 }
 
 .imgbtn2{
-	position:center;
-    margin-top:100px;
+	position:absolute;
+	bottom: 550px;
+	left: 120px;
 }
+
+.imgbtn3{
+	position:absolute;
+	bottom: 300px;
+	left: 120px;
+}
+
+.imgbtnlvl1{
+	position:absolute;
+	bottom: 800px;
+	left: 230px;
+}
+
+.imgbtnlvl2{
+	position:absolute;
+	bottom: 550px;
+	left: 230px;
+}
+
+.imgbtnlvl3{
+	position:absolute;
+	bottom: 300px;
+	left: 230px;
+}
+
 
 .justify{
 	text-align:justify;
