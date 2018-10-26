@@ -1,0 +1,131 @@
+.phoneload{
+	background-image:url("../images/gif_carga.gif");
+	background-size: 1080px 1920px;
+}
+
+.phonemenu{
+	background-image:url("../images/fondo_inicio.png");
+}
+
+.phonelevelgame1{
+	background-image:url("../images/fondo_estrellas_gemelas.png");
+}
+
+.phonegame1{
+	background-image:url("../images/fondo_estrellas_gemelas.png");
+}
+
+.phonegame2{
+	background-image:url("../images/instrucciones.png");
+}
+
+.phonecredit{
+	background-image:url("../images/creditos.png");
+}
+
+.phonewin{
+	background-image:url("../images/gano.png");
+}
+
+.imgleft {
+	display:block;
+	float:left;
+	margin-top: 50px;
+	margin-left: 50px;
+}
+
+.imgright {
+	display:block;
+	float:right;
+	margin-top: 50px;
+	margin-right: 50px;
+}
+
+.imgbtn1{
+	position:center;
+    margin-top:800px;
+}
+
+.imgbtn2{
+	position:center;
+    margin-top:100px;
+}
+
+.justify{
+	text-align:justify;
+}
+
+.center{
+	text-align: center;
+}
+
+.field{
+	font-family: Courier New, Courier, Mono;
+	resize: horizontal;
+    width: 930px;
+	outline: 0px;
+	font-size: 106px;
+	margin:0px 0px 12px 15px;
+	background-color: transparent; 
+	border-radius: 30px;
+	padding: 3px 0px 0px 24px;
+	letter-spacing: 0.66em;
+	color: white;
+	text-transform: uppercase;
+}
+
+#num1{
+	margin: 130px 15px 15px 15px;
+}
+#hint{
+	color: white;
+	font-size: 100px;
+	text-align:center;
+	margin:60px 50px 15px 50px;
+}
+
+section {
+	max-width: 100%;
+	max-height: 100%;
+	display: none;
+	width: 100%;
+	height: 100%;
+	background-repeat: no-repeat;
+	background-position: center; 
+	background-attachment: fixed;
+	text-align:center;
+}
+
+h1 {
+	font-family:'Aileron';
+	font-weight: normal;
+	font-size: 80px;
+	margin:500px 40px 15px 40px;
+}
+
+h2 {
+	font-family:'Aileron';
+	font-weight: normal;
+	font-size: 70px;
+	margin:15px 40px 15px 40px;
+}
+
+p {
+	font-family: 'Densia Sans';
+	font-size: 48px;
+	text-align:justify;
+	margin:40px 120px 40px 120px;
+}
+
+@font-face {
+  font-family: Aileron;
+  font-style: normal;
+  font-weight: 100;
+  src: local('Aileron'), url(Ailerons-Typeface.otf); }
+
+@font-face {
+  font-family: Densia Sans;
+  font-style: normal;
+  font-weight: 100;
+  src: local('Densia Sans'), url(DensiaSans.otf) }
+  
