@@ -5,7 +5,7 @@ function init (){
 	document.getElementById("loadp").style.display = "block";
 
 	var time = document.getElementById("time");
-	setTimeout(()=>{document.getElementById("loadp").style.display = "none"; document.getElementById("menup").style.display = "block";},1000);
+	setTimeout(()=>{document.getElementById("loadp").style.display = "none"; document.getElementById("menup").style.display = "block";},14000);
 
 	var jugarButton = document.getElementById("jugar1Button");
 	jugarButton.addEventListener('click', navigate('menup', 'level1p'));
