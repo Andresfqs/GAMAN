@@ -5,7 +5,7 @@ function init (){
 	document.getElementById("loadp").style.display = "block";
 
 	var time = document.getElementById("time");
-	setTimeout(()=>{document.getElementById("loadp").style.display = "none"; document.getElementById("menup").style.display = "block";},14000);
+	setTimeout(()=>{document.getElementById("loadp").style.display = "none"; document.getElementById("menup").style.display = "block";},1000);
 
 	var jugarButton = document.getElementById("jugar1Button");
 	jugarButton.addEventListener('click', navigate('menup', 'level1p'));
@@ -22,8 +22,14 @@ function init (){
 	var levelpBackButton = document.getElementById("levelpBackButton");
 	levelpBackButton.addEventListener('click', navigate('level1p', 'menup'));
 
+		var levelpBackButton = document.getElementById("levelpHomeButton");
+	levelpBackButton.addEventListener('click', navigate('level1p', 'menup'));
+
 	var levelpBackButton = document.getElementById("levelpBackButtonlvl");
 	levelpBackButton.addEventListener('click', navigate('game1p', 'level1p'));
+
+	var levelpBackButton = document.getElementById("levelpHomeButtonlvl");
+	levelpBackButton.addEventListener('click', navigate('game1p', 'menup'));
 
 	var levelpBackButton = document.getElementById("levelpBackButtonGame2");
 	levelpBackButton.addEventListener('click', navigate('game2p', 'menup'));

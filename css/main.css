@@ -11,15 +11,15 @@
 }
 
 .phonegame1{
-	background-image:url("../images/fondo_estrellas_gemelas.png");
+	background-image:url("../images/fondo_color.png");
 }
 
 .phonegame2{
-	/*background-image:url("../images/instrucciones.png");*/
+	background-image:url("../images/fondo_color.png");
 }
 
 .phonecredit{
-	/*background-image:url("../images/creditos.png");*/
+	background-image:url("../images/fondo_color.png");
 }
 
 .phonewin{
@@ -48,14 +48,20 @@
 
 .imgbtn2{
 	position:absolute;
-	bottom: 550px;
+	bottom: 600px;
 	left: 120px;
 }
 
 .imgbtn3{
 	position:absolute;
-	bottom: 300px;
+	bottom: 400px;
 	left: 120px;
+}
+
+.imgbtnlvl1intro{
+	position:absolute;
+	bottom: 1100px;
+	left: 230px;
 }
 
 .imgbtnlvl1{
@@ -66,13 +72,13 @@
 
 .imgbtnlvl2{
 	position:absolute;
-	bottom: 550px;
+	bottom: 600px;
 	left: 230px;
 }
 
 .imgbtnlvl3{
 	position:absolute;
-	bottom: 300px;
+	bottom: 400px;
 	left: 230px;
 }
 
@@ -120,6 +126,11 @@ section {
 	background-position: center; 
 	background-attachment: fixed;
 	text-align:center;
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
 }
 
 h1 {
